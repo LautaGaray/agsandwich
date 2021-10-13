@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->  
+  <link rel="stylesheet" href="./boostrap/bootstrap.css"> 
+  <link rel="stylesheet" href="./css/styles.css"> 
+  <link rel="stylesheet" href="./css/donde.css"> 
+
+  <!--BACK-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <title>AGsandwuich</title>
+</head>
+<body>
+  <!--NAV_BAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Principal<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./cocina.html">Cocina</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Conocenos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./quienessomos.html">Quienes somos</a>
+            <a class="dropdown-item" href="#">Donde estamos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Instagram</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!--PRESENTATION-->
+<section id="map">
+    <div class="title_map">
+        <h1>¿Donde estamos?</h1>
+    </div>
+    <div class="map_generation">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52422.61957058537!2d-58.305665894794835!3d-34.795531799858104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a329628f552cad%3A0x813d55ba09834999!2sFlorencio%20Varela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1634087975790!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+<div class="card text-center">
+    <div class="card-header">
+      ¿Nos ubicamos?
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Llegamos hasta vos</h5>
+      <p class="card-text">Podemos coordinar un punto de entrega, ir hasta vos o incluso podes venir a retirar. Nosotros nos enontramos en Florencio Varela.</p>
+    </div>
+  </div>
+<script src="./main/js/bootstrap.min.js"></script>
+<!--Footer-->
+<footer class="page-footer font-small blue">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="#"> agsandwichs.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

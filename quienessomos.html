@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->  
+  <link rel="stylesheet" href="./boostrap/bootstrap.css"> 
+  <link rel="stylesheet" href="./css/styles.css"> 
+  <link rel="stylesheet" href="./css/quienes.css">   
+
+  <!--BACK-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <title>AYGsandwuich</title>
+</head>
+<body>
+  <!--NAV_BAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AYG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Principal<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./cocina.html">Cocina</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Conocenos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Quienes somos</a>
+            <a class="dropdown-item" href="./donde.html">Donde estamos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Instagram</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!--PRESENTATION-->
+<section id = "quienes_somos">
+  <div class="quienes_somos_cont">
+    <div class="quienes_somos_images1"></div>
+    <div class="quienes_somos_images2"></div>
+  </div>
+  <div class="quienes_somos_cont">
+    <div class="quienes_somos_images3">
+      <div class="txt"><h1>NOSOTROS</h1></div>
+      <div class="txt">
+        <h3>Somos una StarUp, nuestra meta es lograr la mejor experiencia, mediante un producto de alta calidad</h3>
+        <a href="./index.html" class="btn btn-primary btn-lg" tabindex="-1" role="button" aria-disabled="true">Principal</a>        
+      </div>
+    </div>
+  </div>
+</section>
+<!--ABOUT US-->
+<section id="nosotros"> 
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="./img/logo.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Empresa Familiar</h5>
+          <p class="card-text">Comenzamos como un emprendimiento familiar, el amor por la cocina fue lo que nos inspiró a poder compartirlo con todos los que quieran ser parte de nuestra comunidad.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="aside">
+    <h1>AG somos familia</h1>
+    <hr>
+    <h4>Nuestros valores se centran en el compartir, esperamos que nuestros productos sean parte de festejos, tardes, mañanas y los acompañen en momentos inolvidables de sus vidas</h4>
+  </div>
+</section>
+
+<script src="./main/js/bootstrap.min.js"></script>
+<!--Footer-->
+<footer class="page-footer font-small blue">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="#"> aygsandwichs.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>
